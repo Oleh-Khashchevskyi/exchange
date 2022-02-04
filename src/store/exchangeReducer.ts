@@ -36,7 +36,7 @@ export const exchangeReducer = (state = defaultState, action: AnyAction) => {
       return {
         ...state,
         loading: false,
-        error: 'An error occurred while requesting the server..',
+        error: 'An error occurred while requesting the server...',
       };
 
     case CHANGE_DEFAULT_RATE:
