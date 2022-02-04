@@ -1,0 +1,53 @@
+@import '../../styles/vars.scss';
+
+.select {
+  width: 100px;
+}
+
+.oppener {
+  width: 100%;
+  border: 1px solid #eee;
+  background-color: rgba(255, 255, 255, 0.1);
+  color: #eee;
+  font-size: 18px;
+  padding: 10px 0;
+  cursor: pointer;
+  display: flex;
+  justify-content: space-around;
+  z-index: 1;
+
+  &:focus {
+    border-color: $colorGreen;
+  }
+}
+
+.options {
+  width: 100px;
+  background-color: #222;
+  border: 1px solid $colorGreen;
+  border-top: none;
+  position: absolute;
+  max-height: 300px;
+  overflow-y: scroll;
+  display: flex;
+  flex-direction: column;
+  z-index: 2;
+}
+
+.option {
+  padding: 5px;
+  color: $colorGreen;
+  cursor: pointer;
+  background-color: #222;
+  border: none;
+  font-size: 18px;
+
+  &:hover {
+    background-color: #222;
+    color: #eee;
+  }
+
+  &:not(:last-child) {
+    border-bottom: 1px solid $colorGreen;
+  }
+}

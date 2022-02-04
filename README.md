@@ -1,9 +1,18 @@
-# React TypeScript Starter Pack
+# Exchange rates
 
-To use this template click `Use this template`
+- [TEST TASK](https://hackmd.io/@YGYcYPwrSpam-opsOJHMAw/rJ_UTnAVt)
 
-### Available Scripts
+# Technologies
 
-`Deploy` - available to deploy your application to gh-pages
+- HTML
+- SCSS
+- Java Script
+- Type Script
+- React
+- React Hooks
+- React Router
+- Redux
 
-`SCSS Preprocessor` - available to write your styles with modern style language
+# Preview
+
+- [DEMO LINK](https://oleh-khashchevskyi.github.io/exchange)

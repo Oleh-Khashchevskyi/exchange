@@ -1,0 +1,13 @@
+@import '../../styles/vars.scss';
+
+.header {
+  height: $headerHeight;
+  padding: 0 40px;
+  background-color: #073133;
+  display: flex;
+  gap: 80px;
+  align-items: center;
+  box-shadow: 0 5px 15px 1px rgba(0, 0, 0, 0.4);
+  position: relative;
+  z-index: 9;
+}
